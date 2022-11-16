@@ -1,0 +1,50 @@
+html {
+  background-color: rgb(175, 222, 166);
+  
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  font-style: italic;
+}
+.myDiv{
+  text-align:center;
+  font-size:30px;
+}
+input{
+  width:auto;
+  font-size:20px;
+}
+
+#add {
+  display:block;
+  border: 5px solid red;  
+  margin:auto;
+}
+#cost {
+  font-size:50px;
+  text-align:center;
+}
+
+.tableTitle {
+  font-size: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2e1b3;
+  }
+  tr:nth-child(odd) {
+    background-color: #f2e1b3;
+  }

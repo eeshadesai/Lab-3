@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Grocery List</title>
+</head>
+    <h1>Grocery List</h1>
+    <div class="myDiv" >
+    <span>Budget: <span> <input type = "number"  id="budget" style= height:20px; width:100px; >
+    <label>Item: </label>
+    <input type = "text" id = "item" placeholder="Item" style= height:20px; width:100px;>
+    <label>Price: </label>
+    <input type = "text" id="price" placeholder="Price" style= height:20px; width:100px;>
+    <input type = "button" value="Add" onClick="addRow()" id="add" >
+    </div>
+    <br></br>
+
+    <table id="table">
+        <tr class ="tableTitle">
+            <th>Item</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </table>
+    <br></br>
+
+    <h2 id="cost">Total Cost:</h2>
+	<script src="lab3.js"></script> 
+
+    
+
+
+</body>
+</html>
